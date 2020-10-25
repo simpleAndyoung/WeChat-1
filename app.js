@@ -34,6 +34,9 @@ App({
       }
     })
   },
+  onHide:function(){
+    console.log('hide')
+  },
   globalData: {
     userInfo: null
   }
