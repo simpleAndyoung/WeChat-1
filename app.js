@@ -1,7 +1,7 @@
 //app.js
 App({
   onLaunch: function () {
-    // 加载完毕
+    // 加载完毕生命周期
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
